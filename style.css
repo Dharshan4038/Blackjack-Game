@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2Yspx3hUgjZaGi91bsA-TZnl47A0JWJ4HnA&usqp=CAU");
+    background-position: center center;
+    background-size: cover;
+    font-family: "Anton",sans-serif;
+    text-align: center;
+    justify-content: center;
+}
+
+h1 {
+    color: red;
+    font-family: "Press Start 2P",sans-serif;
+}
+
+#message-el {
+    font-size: 1.5rem;
+    font-weight: 800;
+    font-style: italic;
+}
+
+.sub-container {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+#btn {
+    font-size: 2rem;
+    width: 350px;
+    color: green;
+    background-color: yellow;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px 10px;
+    border-color: black;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#btn:hover {
+    box-shadow: inset -10.5em 0 0 0 #ff96ad,inset 10.5em 0 0 0 #ff96ad;
+}
+
